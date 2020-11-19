@@ -11,7 +11,7 @@
  /* elementos base */
  body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -91,8 +91,20 @@ header .container{
 
  .container {
      margin-left: 20px;
+     margin-right: 10px ;
  }
 
  .filme-principal .container {
-     width: 70%;
+     width: 55%;
  }
+
+ .box-filme{
+     height: 100%;
+     width: 100%;
+     display: block;
+
+ }
+
+  .carrossel-filmes {
+      margin-top: 5px;
+  }
